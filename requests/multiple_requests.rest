@@ -1,0 +1,12 @@
+GET http://localhost:3001/api/notes
+
+//we can make multiple requests on the same file if we use hashtags to separate them
+###
+POST http://localhost:3001/api/notes
+
+Content-Type: application/json
+
+{
+    "content" : "Just trying things out",
+    "important" : true
+}
